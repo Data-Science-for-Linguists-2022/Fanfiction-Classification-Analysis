@@ -1,0 +1,1 @@
+Progress report 1, 2/13/2022 - Github repository created, beginning markdown descriptor files committed to repository
