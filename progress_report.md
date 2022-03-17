@@ -5,7 +5,7 @@ Progress report 1, 2/13/2022 - Github repository created, beginning markdown des
 I am almost finished with my data collection and cleaning process, with a few small things left to finish up. 
 
 To collect my data, I utilized the scrapy python library and created a spider (code that can crawl webpages and download their
-html). The spider I wrote can be found in my main repository under the name fanfic_spider.py. Please note that it will not
+html). The spider I wrote can be found [here]https://github.com/Data-Science-for-Linguists-2022/Fanfiction-Classification-Analysis/blob/main/fanfic_spider.py under the name fanfic_spider.py. Please note that it will not
 do anything if you try to run it! Spiders need to be run within dedicated scrapy projects, and while I will probably share
 my entire scrapy project eventually, it is currently stored in a git-ignored directory (see notes on data sharing below).
 Using this spider, I collected over 6000 html pages, each representing a single page (often a chapter) of a fanfic from 
@@ -21,7 +21,7 @@ the massive scale of my data I thought it would be better to use a library dedic
 utilized the BeautifulSoup library. Thankfully, the html pages I downloaded were very well organized, and Archive of Our Own
 has a rigorous tagging system that is built into the core of the website, which I used to search the data for categories I 
 could add to the DataFrame I made using pandas. You can see my work in the Jupyter Notebook fanfiction_data_parsing.ipynb,
-which is available in the main repository of my project.
+which can be found [here]https://github.com/Data-Science-for-Linguists-2022/Fanfiction-Classification-Analysis/blob/main/fanfiction_data_parsing.ipynb.
 
 ## Data Sharing Plan
 
