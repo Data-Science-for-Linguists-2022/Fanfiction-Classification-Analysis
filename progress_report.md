@@ -36,7 +36,8 @@ I need. (UPDATE: My data_samples directory won't upload to github, I'm working o
 
 My data has all been collected and cleaned, and I'm looking forward to moving on to analysis and classification! Most of what
 I've done for this progress report has been organizing everything a little better and getting things in better shape, especially
-my data sharing plan.
+my data sharing plan. UPDATE: My Jupyter Notebook may not be finished running by my final commit, I will update it as soon as
+it finishes.
 
 ## Data Sharing
 
