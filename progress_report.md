@@ -21,7 +21,7 @@ the massive scale of my data I thought it would be better to use a library dedic
 utilized the BeautifulSoup library. Thankfully, the html pages I downloaded were very well organized, and Archive of Our Own
 has a rigorous tagging system that is built into the core of the website, which I used to search the data for categories I 
 could add to the DataFrame I made using pandas. You can see my work in the Jupyter Notebook fanfiction_data_parsing.ipynb,
-which can be found [here]https://github.com/Data-Science-for-Linguists-2022/Fanfiction-Classification-Analysis/blob/main/fanfiction_data_parsing.ipynb.
+which can be found [here]https://github.com/Data-Science-for-Linguists-2022/Fanfiction-Classification-Analysis/blob/main/fanfiction_data_parsing.ipynb .
 
 ## Data Sharing Plan
 
@@ -31,3 +31,26 @@ program (I might be a little off about this, I plan to go over the license a few
 Therefore, by the end of this project, I plan to make available all of the data I used. However, at the moment I am not 
 finished compiling my data, so I have provided samples and stored the rest in a git-ignored directory until I have everything
 I need. (UPDATE: My data_samples directory won't upload to github, I'm working on it and it will be up as soon as possible.)
+
+# Second Progress Report - 3/24/2022
+
+My data has all been collected and cleaned, and I'm looking forward to moving on to analysis and classification! Most of what
+I've done for this progress report has been organizing everything a little better and getting things in better shape, especially
+my data sharing plan.
+
+## Data Sharing
+
+I finally got my data samples directory to work, and in it you will find five html pages that I collected, as well as the 
+entire scrapy project I used to collect them, so you can recreate my work if you so desire. I will warn you, results may vary,
+as it takes hours for the spider to run and my spider has very few restrictions on what fanfics it downloads. If you would
+like to use and/or edit the code I've provided here, I highly suggest you take a look at the scrapy documentation [here]https://doc.scrapy.org/en/latest/index.html .
+It's very helpful for anyone looking to use scrapy. I did think about uploading all of my data, but with slightly over 10000
+files, it seemed unreasonable to expect anyone to sort through that much data when I've provided all the tools to obtain and
+clean a similar sample yourself.
+
+## License
+
+After a lot of consideration, I decided to use the GPL 3.0 license. It's the same license my dataset uses, which makes it easy
+for anyone looking to use this project in the future, and it fits with my desire to make my work available to the public, 
+especially since I'm using data that I collected myself, and thus almost everything in my project is my own personal work.
+I do want this work to be replicable, so the General Public License was the best option for me.
